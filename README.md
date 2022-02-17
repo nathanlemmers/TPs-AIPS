@@ -10,6 +10,6 @@ gcc AIPS.c -o tsock
 ./tsock -s [-options] host port
 
 # Options :
--n # : Nombre de messages emis ou reçus au maximum, 10 par defaut en émission et infini en réception.\n
--l # : Longueur du message emis ou reçu, 30 par défaut.\n
+-n # : Nombre de messages emis ou reçus au maximum, 10 par defaut en émission et infini en réception.
+-l # : Longueur du message emis ou reçu, 30 par défaut.
 -u : Utilisation du protocole UDP, le protocole TCP est utilisé par défaut.
